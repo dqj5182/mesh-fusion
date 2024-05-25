@@ -133,7 +133,7 @@ especially remotely (e.g. through ssh) on machines without monitor.**
 Finally, simplification is performed using `meshlabserver`; make sure to have
 it installed and run
 
-    xvfb-run -a python 3_1_simplify.py --in_dir=examples/2_watertight/ --out_dir=examples/3_out/
+    xvfb-run -a python 3_simplify.py --in_dir=examples/2_watertight/ --out_dir=examples/3_out/
 
 The result of all steps is illustrated in the screenshot above.
 
